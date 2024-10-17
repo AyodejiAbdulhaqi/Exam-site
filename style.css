@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.selection{
+    background-color: rgb(250, 227, 227) !important;
+}
+.buttons{
+    background-color: orange !important;
+}
+.span{
+    color: orange !important;
+}
+.butto{
+    background-color: orange !important;
+    padding: 10px !important;
+}
+.spans{
+    color: orange;
+}
+i{
+    font-size: 30px !important;
+}
+.spanss{
+    color: orange !important;
+}
+.special-paragraph{
+    padding: 10px !important;
+    background-color: orangered !important;
+    color: white !important;
+    font-family: cursive !important;
+    border-radius: 50% !important;
+    font-size: 40px !important;
+}
+.get{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border: none;
+    border: 10px;
+}
+.got{
+    background-color: transparent;
+    color: orange;
+    padding: 5px;
+    border: 2px solid orange !important;
+}
+.profile{
+    border-radius: 100% !important;
+    height: 40px !important;
+}
+.get-started{
+    margin-left: 400px !important;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px !important;
+}
+.maniq-div{
+    background-color: orangered;
+    padding: 15px !important;
+    color: white;
+
+}
+.maniqss{
+    background-color: orangered !important;
+    border-radius: 10px;
+}
