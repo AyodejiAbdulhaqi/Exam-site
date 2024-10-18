@@ -110,20 +110,21 @@
   
    
      <!-- Simple Solutions Section -->
-     <div id="solutions" class="selection container-fluid mt-5 section">
-      <div class="d-flex justify-content-between">
-          <div class="imges animate__animated animate__fadeInLeft">
-              <img src="Messaging-pana.svg" alt="" width="500px">
-          </div>
-          <div class="text animate__animated animate__fadeInRight">
-              <h1><b>Simple <span class="spanss">Solutions</span></b></h1>
-              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-              <p><b>Contact us</b></p>
-              <p><b>Consult</b></p>
-              <button class="get rounded">Get started</button>
-          </div>
+<div id="solutions" class="selection container-fluid mt-5 section">
+  <div class="row align-items-center">
+      <div class="col-md-6 col-12 animate__animated animate__fadeInLeft">
+          <img src="Messaging-pana.svg" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 col-12 text animate__animated animate__fadeInRight">
+          <h1><b>Simple <span class="spanss">Solutions</span></b></h1>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+          <p><b>Contact us</b></p>
+          <p><b>Consult</b></p>
+          <button class="get rounded btn btn-primary">Get started</button>
       </div>
   </div>
+</div>
+
 
     <!-- Our Agency Section -->
     <div class="container mt-5">
@@ -192,9 +193,23 @@
   <div class="rounded p-4 text-center shadow">
       <h3><b>Ready to get started?</b></h3>
       <p>Fill out the form below and our team will get in touch with you shortly!</p>
-      <div class="mt-3">
-          <button class="get-started p-2 btn">Get Started</button>
-      </div>
+      
+      <!-- Contact Form -->
+      <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
   </div>
 </div>
 
@@ -229,7 +244,7 @@
         </div>
     </div>
 
-    <script src="main.js"></script>
+    <script src="mail.js"></script>
     <script src="https://kit.fontawesome.com/042748c20e.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap JS -->
