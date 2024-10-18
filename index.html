@@ -8,206 +8,250 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-transparent">
-        <div class="container-fluid">
-            <div class="icon">
+
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-transparent">
+  <div class="container">
+      <a class="navbar-brand" href="#">
           <img src="vue icon.png" alt="" width="50px">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home"><b>Home</b></a>
+                  <a class="nav-link active" href="#home"><b>Home</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><b>About us</b></a>
+                  <a class="nav-link active" href="#"><b>About us</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><b>Services</b></a>
+                  <a class="nav-link active" href="#"><b>Services</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><b>Contact us</b></a>
+                  <a class="nav-link active" href="#"><b>Contact us</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><b>Blog</b></a>
+                  <a class="nav-link active" href="#"><b>Blog</b></a>
               </li>
+          </ul>
+          <div class="d-lg-flex">
+              <button class="buttons border-0 p-2 rounded text-light">Sign Up</button>
           </div>
-          <div class="button">
-            <button class="buttons border-0 p-2 rounded text-light"> Sign Up</button>
+      </div>
+  </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <div class="container mt-5">
+      <div class="row align-items-center">
+          <div class="col-md-6">
+              <h1 class="display-4 fw-bold">Empowering Your Business<br><span class="text-warning">with Innovation</span></h1>
+              <p class="lead">We deliver cutting-edge solutions to drive business growth, optimize operations, and enhance customer experiences.</p>
+              <button class="btn btn-warning text-light border-0 rounded">Get Started</button>
           </div>
-        </div>
-      </nav>
-
-      <!-- hero section -->
-       <div class="hero container mt-5 ">
-        <div class="main-div d-flex justify-content-between ms-5 me-5 d-block">
-            <div class="text">
-                <h1 class="fs-1"><b>We create<br> <span class="span">solutions </span>for <br>your business.</b></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut animi, mollitia laborum atque minus, molestias doloremque officia sunt ipsum itaque beatae consectetur ipsa dignissimos eligendi pariatur repellendus perspiciatis quo velit.</p>
-                <button class="butto text-light border-0 rounded">Get Started</button>
-            </div>
-            <div class="image">
-                <img src="Starting a business project-amico.svg" alt="" width="400px">
-            </div>
-        </div>
-       </div>
-
-       <!-- services -->
-        <div class="cotainer mt-5">
-          <div class="main">
-            <div class="text-center">
-              <h1>We provide the best<span class="spans ms-auto"> services</span></h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ad <br>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="cards d-flex justify-content-between mx-5 ">
-              <!-- card 1 -->
-              <div class="card" style="width: 18rem;">
-                <div class="card-body text-center">
-                  <i class="fa-solid fa-magnifying-glass" style="color: #FFD43B;"></i>
-                  <h5 class="card-title mt-3">Seo/Sem</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <!-- card 2 -->
-              <div class="card col-12" style="width: 18rem;">
-                <div class="card-body text-center">
-                  <i class="fa-solid fa-bullhorn" style="color: #63E6BE;"></i>
-                  <h5 class="card-title mt-3">Marketing</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <!-- card 3 -->
-              <div class="card grid grid-col-12" style="width: 18rem;">
-                <div class="card-body text-center" >
-                  <i class="fa-solid fa-tv" style="color: #B197FC;"></i>
-                  <h5 class="card-title mt-3">Viral Campaign</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <!-- card 4 -->
-              <div class="card" style="width: 18rem;">
-                <div class="card-body text-center" >
-                  <i class="fa-solid fa-scroll" style="color: #ff0000;"></i>
-                  <h5 class="card-title mt-3">Others</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <!-- end of cards -->
-            </div>
+          <div class="col-md-6 text-center">
+              <img src="Starting a business project-amico.svg" alt="Business Solutions" class="img-fluid" width="400px">
           </div>
-        </div>
+      </div>
+  </div>
 
-        <!-- simple solutions -->
-         <div class="selection container-fluid mt-5">
-          <div class="man-div d-flex justify-content-between">
-            <div class="imges">
+    <!-- Services Section -->
+    <div class="container mt-5 section">
+      <div class="text-center">
+          <h1 class="animate__animated">Delivering <span class="spans">Top-Quality Services</span> to Drive Success</h1>
+          <p class="animate__animated">Our expert team offers tailored solutions designed to elevate your business and meet your unique needs.</p>
+      </div>
+      <div class="row ">
+          <div class="col-md-3 col-sm-6 mb-4 animate__animated ">
+              <div class="card ">
+                  <div class="card-body text-center">
+                      <i class="fa-solid fa-magnifying-glass" style="color: #FFD43B;"></i>
+                      <h5 class="card-title mt-3">SEO/SEM <br> Optimization</h5>
+                      <p class="card-text">Maximize your online visibility with our data-driven SEO and SEM strategies.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4 animate__animated">
+              <div class="card">
+                  <div class="card-body text-center">
+                      <i class="fa-solid fa-bullhorn" style="color: #63E6BE;"></i>
+                      <h5 class="card-title mt-3">Comprehensive Marketing</h5>
+                      <p class="card-text">Unlock the full potential of your brand with tailored marketing solutions.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4 animate__animated">
+              <div class="card">
+                  <div class="card-body text-center">
+                      <i class="fa-solid fa-tv" style="color: #B197FC;"></i>
+                      <h5 class="card-title mt-3">Viral Campaign Strategies</h5>
+                      <p class="card-text">Create impactful viral campaigns that resonate with your target audience.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4 animate__animated">
+              <div class="card">
+                  <div class="card-body text-center">
+                      <i class="fa-solid fa-scroll" style="color: #ff0000;"></i>
+                      <h5 class="card-title mt-3">BC <br>Business Consulting</h5>
+                      <p class="card-text">Get expert guidance to navigate challenges and drive sustainable growth.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+   
+     <!-- Simple Solutions Section -->
+     <div id="solutions" class="selection container-fluid mt-5 section">
+      <div class="d-flex justify-content-between">
+          <div class="imges animate__animated animate__fadeInLeft">
               <img src="Messaging-pana.svg" alt="" width="500px">
-            </div>
-            <div class="text">
+          </div>
+          <div class="text animate__animated animate__fadeInRight">
               <h1><b>Simple <span class="spanss">Solutions</span></b></h1>
-              <h4 class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> aut aperiam numquam reiciendis deleniti, <br>vel temporibus molestias voluptates ad ipsam!</h4>
-              <p><span class="special-paragraph">1</span><b>               Contact us<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, repudiandae.</b></p>
-              <p><span class="special-paragraph">2</span><b>               Consult<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quaerat.</b></p>
-              <p><span class="special-paragraph">3</span><b>               Place Order<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, ea!</b></p>
-              <p><span class="special-paragraph">4</span><b>               Payment<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, cupiditate?</b></p>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+              <p><b>Contact us</b></p>
+              <p><b>Consult</b></p>
               <button class="get rounded">Get started</button>
-              <button class="got rounded">Read more</button>
-            </div>
           </div>
-         </div>
+      </div>
+  </div>
 
-         <!-- Our Agency -->
-          <div class="container mt-5">
-          <div class="mains-divs">
-            <div class="head text-center">
-              <h1><b>Our <span class="spans">Agency</span></b></h1>
-            </div>
-            <div class="manses d-flex justify-content-between mt-4">
-            <div class="p">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugal Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sit soluta quasi temporibus ut quia vel. Laboriosam minus beatae optio quaerat nobis consequuntur, repellat ratione maiores corrupti providen elit. Minima, sit soluta quasi temporibus ut quia vel. Laboriosam minus beatae optio quaerat nobis consequuntur, repellat ratione maiores corrupti providen elit. Minima, sit soluta quasi temporibus ut quia vel. Laboriosam minus beatae optio quaerat nobis consequuntur, repellat ratione maiores corrupti providen elit. Minima, sit soluta quasi temporibus ut quia vel. Laboriosam minus beatae optio quaerat nobis consequuntur, repellat ratione maiores corrupti providen elit. Minima, sit soluta quasi temporibus ut quia vel. Laboriosam minus beatae optio quaerat nobis consequuntur, repellat ratione maiores corrupti providen elit. Minima, sit soluta quasi temporibus ut quia vel. Laboriosam minus beatae optio quaerat nobis consequuntur, repellat ratione maiores corrupti providen elit. Minima, sit soluta quasi temporibus ut quia vel. Laboriosam minus beatae optio quaerat nobis consequuntur, repellat ratione maiores corrupti providen elit. Minima, sit soluta quasi temporibus ut quia vel. Laboriosam minus beatae optio quaerat nobis consequuntur, repellat ratione maiores corrupti provident omnis repudiandae. <br>nemo quo commodi dignissimos est dolores quasi, delectus numquam,<br> voluptatibus nisi harum exercitationem impedit vero.<br> Accusantium quaerat <br>corrupti natus sint aspernatur at, reiciendis atque quidem iusto odit excepturi quos suscipit <br>vel fugit deserunt quis dolor, saepe illo ut commodi. Ex!</p>
-            </div>
-            <div class="imgses">
-              <img src="Working-rafiki.svg" alt="" width="500px">
-            </div>
+    <!-- Our Agency Section -->
+    <div class="container mt-5">
+      <div class="text-center">
+          <h1><b>About Our <span class="spans">Agency</span></b></h1>
+      </div>
+      <div class="row align-items-center mt-4">
+          <div class="col-md-6">
+              <p>We are a dedicated team of professionals committed to delivering innovative solutions tailored to meet your business needs. With a focus on quality, reliability, and results, we strive to help your business succeed in today’s competitive market.</p>
+              <p>Our agency specializes in a variety of services ranging from digital marketing to business consulting, ensuring that every aspect of your business is supported by industry-leading strategies.</p>
           </div>
+          <div class="col-md-6">
+              <img src="Working-rafiki.svg" alt="Agency team working" class="img-fluid" width="500px">
           </div>
+      </div>
+  
+      <!-- Call to Action -->
+      <div class="text-center mt-4">
+          <a href="#services" class="btn btn-primary shadow">Learn More About Our Services</a>
+      </div>
+  </div>
+  
+
+    <!-- Reviews Section -->
+    <div class="container mt-5">
+      <div class="text-center mb-5">
+          <h1>What Our <span class="spans">Clients</span> Say!</h1>
+          <p>We value feedback from our clients and continuously strive to enhance our services based on their experiences.</p>
+      </div>
+      <div class="row">
+          <div class="col-md-4 mb-4">
+              <div class="card shadow hover-shadow">
+                  <div class="card-body text-center">
+                      <img src="revuelto.jpeg" alt="Client 1" class="profile rounded-circle mb-3" width="100px">
+                      <h5 class="card-subtitle mb-2 text-body-secondary">Client Name 1</h5>
+                      <p class="card-text">"The services provided were exceptional, greatly enhancing our business strategy and overall performance."</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card shadow hover-shadow">
+                  <div class="card-body text-center">
+                      <img src="revuelto.jpeg" alt="Client 2" class="profile rounded-circle mb-3" width="100px">
+                      <h5 class="card-subtitle mb-2 text-body-secondary">Client Name 2</h5>
+                      <p class="card-text">"I highly recommend this agency for their professionalism and outstanding results!"</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card shadow hover-shadow">
+                  <div class="card-body text-center">
+                      <img src="revuelto.jpeg" alt="Client 3" class="profile rounded-circle mb-3" width="100px">
+                      <h5 class="card-subtitle mb-2 text-body-secondary">Client Name 3</h5>
+                      <p class="card-text">"A fantastic experience! The team was attentive and delivered beyond my expectations."</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  
+
+    <!-- Contact Us Section -->
+    <!-- Contact Us Section -->
+<div class="d-flex justify-content-center mt-5">
+  <div class="rounded p-4 text-center shadow">
+      <h3><b>Ready to get started?</b></h3>
+      <p>Fill out the form below and our team will get in touch with you shortly!</p>
+      
+      <!-- Contact Form -->
+      <form>
+          <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn ">Send Message</button>
+      </form>
+
+      <div class="mt-3">
+          <button class="get-started p-2 btn">Get Started</button>
+      </div>
+  </div>
+</div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid mt-5 px-5 py-3" style="background-color: #343a40;">
+        <div class="row text-white">
+            <div class="col-md-3 col-sm-6">
+                <div class="mb-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h6>Services</h6>
+                <p>Seo/Sem</p>
+                <p>Marketing</p>
+                <p>Campaign</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h6>Contact</h6>
+                <p>Email: example@mail.com</p>
+                <p>Phone: +123 456 789</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h6>Company</h6>
+                <p>About Us</p>
+                <p>Careers</p>
+            </div>
         </div>
-         <!-- review -->
-          <div class="container big-div mt-5">
-            <div class="mans-div">
-              <div class="textss text-center mb-5">
-                <h1>What <span class="spans">clients</span> say!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, maiores pariatur mollitia recusandae <br>eos a fugit perferendis eaque sequi delectus.</p>
-              </div>
-              <div class="carsd d-flex justify-content-between mx-5">
-                <!-- 1 -->
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-subtitle mb-2 text-body-secondary"><img src="revuelto.jpeg" alt="" class="profile" width="50px"> Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-                <!-- 2 -->
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-subtitle mb-2 text-body-secondary"><img src="revuelto.jpeg" alt="" class="profile" width="50px"> Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>            
-                  </div>
-                </div>
-                <!-- 3 -->
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-subtitle mb-2 text-body-secondary"><img src="revuelto.jpeg" alt="" class="profile" width="50px"> Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    </div>
 
-          <!-- contact us -->
-           <div class="contact mt-5 d-flex justify-content-center">
-            <div class="maniq-div rounded">
-              <h3 class=""><b>Ready to get started</b><button class="get-started p-2">Get Started</button></h3>
-            </div>
-           </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/042748c20e.js" crossorigin="anonymous"></script>
 
-           <!-- footer -->
-            <div class="container-fluid mt-5 px-5">
-              <div class="maniqss d-flex justify-content-between text-white">
-                <div class="icon mt-5 ms-5">
-                  <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-                  <i class="fa-brands fa-instagram" style="color: #ff6beb;"></i>
-                  <i class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i>
-                </div>
-                <div class="text1">
-                  <p><b>Company</b></p>
-                  <p>About</p>
-                  <p>Contact</p>
-                  <p>Careers</p>
-                  <p>Team</p>
-                </div>
-                <div class="text2">
-                  <p><b>Designs</b></p>
-                  <p>Design contests</p>
-                  <p>1-to-1 projects</p>
-                  <p>Find a designer</p>
-                  <p>Discover inspiration</p>
-                  <p>Pricing</p>
-                </div>
-                <div class="text3">
-                  <p><b>Resources</b></p>
-                  <p>Become a designer</p>
-                  <p>Blog</p>
-                  <p>Design without borders</p>
-                  <p>99 awards</p>
-                  <p>Afficates</p>
-                </div>
-              </div>
-            </div>
-        <script src="https://kit.fontawesome.com/042748c20e.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
