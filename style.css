@@ -5,7 +5,7 @@
 .selection{
     background-color: rgb(250, 227, 227) !important;
 }
-.buttons{
+.buttons .btn{
     background-color: orange !important;
 }
 .span{
@@ -65,4 +65,92 @@ i{
 .maniqss{
     background-color: orangered !important;
     border-radius: 10px;
+}
+
+.navbar {
+    animation: slideDown 1s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Button Hover Effects */
+.buttons:hover, .butto:hover, .get:hover {
+    background-color: #FFD700; /* Gold on hover */
+    transition: background-color 0.3s ease;
+}
+
+.buttons, .butto, .get {
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Scroll Animations */
+.section {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s, transform 0.6s;
+}
+
+.section.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hero, .services, .selection {
+    transform: translateY(50px);
+}
+.card{
+    
+        min-height: 250px !important;
+        transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+/* For smaller screens */
+@media (max-width: 767.98px) {
+    .card {
+        min-height: 200px;
+    }
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transform: translateY(-10px); /* Slight upward movement */
+}
+
+
+/* Our Agency */
+.btn-primary {
+    background-color: orange;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #FFD700; /* Gold on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+
+/* what client says  */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect */
+}
+
+.hover-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
 }
